@@ -1,0 +1,18 @@
+.result {
+   height: 40px;
+}
+.form__btn {
+   width: 100%;
+   max-width: 150px;
+   padding: 4px 25px;
+   border: none;
+   background-color: aqua;
+   border-radius: 5px;
+
+}
+.form__btn:hover {
+   background-color: aquamarine;
+}
+.form__btn:active {
+   background-color: darkcyan;
+}
