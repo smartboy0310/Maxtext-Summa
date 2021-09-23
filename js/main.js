@@ -29,6 +29,8 @@ elForm.addEventListener('submit', function (evt) {
    evt.preventDefault();
    var inputText = elInputText.value.trim().split(' ');
    var inputNumber = elInputNumber.value.trim().split(' ');
+   elInputText.value = null;
+   elInputNumber.value = null;
    MaxWord(inputText);
    Summa(inputNumber);
    elResultText.textContent ="Bu matn ichidagi eng uzun so'z:  " + "'" + maxText + "' ;";
